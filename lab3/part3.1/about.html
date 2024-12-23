@@ -5,10 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            display: flex;
+        }
+           nav {
+            width: 200px;
+            background-color: #f4f4f4;
+            padding: 20px;
+            box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+            height: 100vh;
+        }
+        nav a {
+            display: block;
+            color: #333;
+            text-decoration: none;
+            margin: 10px 0;
+        }
+        nav a:hover {
+            color: #007BFF;
+        }
+        main {
+            flex: 1;
+            padding: 20px;
+            
+        }
+</style>
 <body>
+    <main>
+        
     <h1>About Me</h1>
     <p>This is the About Me page. Here, you can add your personal information, and interests.</p>
-
+    </main>
+    
+    <nav>
     <ul>
         <a href="http://127.0.0.1:5500/lab3/part3.1/index.html">Black to Home</a>
         <br><br>
@@ -17,5 +49,6 @@
         <a href="http://127.0.0.1:5500/lab3/part3.1/mycat.html">My Cat</a>
         
         </ul>
+    </nav>
 </body>
 </html>

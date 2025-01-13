@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1, h2 {
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.img {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.img p {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.img img {
+  width: 200px;
+  height: auto;
+  margin-left: 10px;
+}
+
+
+.name{
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.movies{
+  font-style: italic;
+}
+
+li .B{
+  font-style: italic;
+}
+
+.box img{
+  border: #000000;
+  border-style: solid;
+  border-radius: 15px;
+  
+  aspect-ratio: 1 / 1;
+  width: 5%;
+}

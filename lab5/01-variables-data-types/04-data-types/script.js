@@ -1,3 +1,4 @@
+/*
 let a = 1;
 let b = 2.3;
 
@@ -13,6 +14,8 @@ console.log(typeof b);
 b = 'bas'
 console.log(b);
 console.log(typeof b);
+*/
+
 
 // String
 const firstName = 'Sara';
@@ -23,13 +26,17 @@ const temp = 98.9;
 
 // Boolean
 const hasKids = true;
-
+console.log(hasKids);
 // Null
 const aptNumber = null;
+console.log(aptNumber);
 
 // Undefined
 // let score;
+let scoreA;
 const score = undefined;
+console.log(scoreA);
+console.log(score);
 
 // Symbol
 const id = Symbol('id');

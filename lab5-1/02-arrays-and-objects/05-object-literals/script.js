@@ -57,3 +57,22 @@ console.log("Min: " + min);
 console.log("Max: " + max); 
 console.log("Sum: " + sum); 
 console.log("Average: " + (sum / numbers.length));
+
+
+let buffer = ""; 
+let size = 8; 
+for (let i = 1; i <= size; i++) { 
+   for (let j = 1; j <= i; j++) { 
+      buffer += j; 
+   } 
+   buffer += "\n"; 
+} 
+console.log(buffer);
+
+
+let i = 1; 
+while (i <= 10) { 
+   console.log(i); 
+   i++; 
+} 
+console.log("Loop ended");
